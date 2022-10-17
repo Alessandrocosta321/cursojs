@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        div#div {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background-color: aqua;
+            line-height: 400px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+        Interaja...
+    </div>
+
+    <script>
+        var a = document.getElementById('div')
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseout', sair)
+
+        function entrar() {
+            a.style.background = "green"
+            a.style.transition = "1s"
+            a.innerText = 'entrou!'
+        }
+
+        function sair() {
+            a.style.background = "aqua"
+            a.style.transition = "1s"
+            a.innerText = 'saiu!'
+        }
+
+        function clicar() {
+            a.style.background = "red"
+            a.style.transition = "1s"
+            a.innerText = 'clicou!'
+        }
+    </script>
+</body>
+</html>
