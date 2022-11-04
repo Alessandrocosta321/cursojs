@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font: normal 15pt Arial;
+    background-color: #2222FF;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
+}
+
+p {
+    display: block;
+    padding: 10px 0px;
+    user-select: none;
+}
+
+div {
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+}
+
+input#txtn {
+    background-color: #2222FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+select {
+    min-width: 160px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+option {
+    border-radius: 2px;
+}
